@@ -1,0 +1,10 @@
+package com.abdel.api.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class VenteService {
+    @Autowired
+    private  VenteService venteService;
+}
